@@ -134,12 +134,10 @@ nav .logo a img {
     }
 
     .course-title {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 25px;
-        border: 1px solid silver;
-        border-radius: 15px;
-        color: white;
+        color: #030817;
         /* border: 1px solid red; */
     }
 
@@ -147,7 +145,7 @@ nav .logo a img {
         font-size: 30px;
         font-weight: 600;
         font-family: 'Montserrat', sans-serif;
-        color: white;
+        color: #030817;
     }
 
     .course-title p {
@@ -156,7 +154,7 @@ nav .logo a img {
         font-size: 18px;
         font-weight: 400;
         font-family: 'Montserrat', sans-serif;
-        color: white;
+        color: #030817;
     }
 
 
@@ -240,11 +238,12 @@ nav .logo a img {
     }
 
     .course-title ul li {
-        margin-left: 25px;
+        margin-left: 5px;
         font-size: 14px;
         margin-top: 5px;
         font-weight: 400;
         font-family: 'Montserrat', sans-serif;
+        color: #030817;
     }
 
     .course-title p {
@@ -370,6 +369,42 @@ nav .logo a img {
         font-weight: 400;
         font-family: 'Montserrat', sans-serif;
         color: #030817;
+    }
+
+    .modal-btn {
+        position: relative;
+        width: 90%;
+        height: 200px;
+        margin-top: 25px;
+        background-color: transparent;
+        border: none;
+        /* border: 1px solid silver; */
+        border-radius: 15px;
+        background-image: url('../imgs/frontend-development-tools.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .modal-backend {
+        background-image: url('../imgs/backend.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .modal-btn div {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid red; */
+        background-color: rgba(31, 31, 31, 0.514);
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
     }
 }
 
