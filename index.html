@@ -4,6 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Pixel Code -->
+    <script defer>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '520550100565926');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=520550100565926&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
     <!-- CSS -->
     <link rel="stylesheet" href="./style/style.css">
     <!-- AOS js CSS -->
@@ -72,9 +91,9 @@
                                 <li data-aos="flip-down">JavaScript kutubxonalaridan <strong>React JS</strong> ni to'liq
                                     va mukammal o'rgatiladi</li>
                                 <li>Saytning <strong>SEO</strong> tizmini ishlab chiqish va ularni
-                                    <strong>Deploy</strong> qilish o'rgatiladi</li>
+                                    <strong>Deploy</strong> qilish o'rgatiladi
+                                </li>
                                 <li data-aos="flip-up">Kurs narxi atigi <strong>450,000</strong> so'm oyiga</li>
-                                <li>Darslar Samarqand shahrida offline <br> bo'lib o'tadi</li>
                             </ul>
                         </div>
                     </div>
@@ -110,13 +129,14 @@
                                 <li data-aos="flip-down">Data Base lar haqida to'liq va mukammal o'rgatiladi</li>
                                 <li>Dars davomida real loyihalarga asoslanga loyihalar qilib borasiz</li>
                                 <li data-aos="flip-up">Kurs narxi atigi <strong>450,000</strong> so'm oyiga</li>
-                                <li>Darslar Samarqand shahrida offline <br> bo'lib o'tadi</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div class="h-txt">
+                <p>Darslar Samarqand shahrida offline bo'lib o'tadi</p>
+            </div>
             <div class="course-form" data-aos="fade-up" id="form">
                 <form action="https://sheetdb.io/api/v1/t6pc7s0cyjcfs" method="post" id="sheetdb-form">
                     <div>
@@ -131,9 +151,7 @@
                         <button type="submit">Kursga
                             yozilish</button>
                     </div>
-                    <div>
-                        <p>Siz bilan bog'lanib kurs haqida to'liq ma'lumot beramiz</p>
-                    </div>
+
                 </form>
             </div>
 
