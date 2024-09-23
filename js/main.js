@@ -16,7 +16,8 @@ form.addEventListener('submit', (e) => {
         setTimeout(() => {
             danger.style.display = 'none'
         }, 4000);
-    } else {
+    }
+    else {
         fetch(form.action, {
             method: "POST",
             body: new FormData(form),
@@ -24,11 +25,13 @@ form.addEventListener('submit', (e) => {
             .then((req) => {
                 success.style.display = 'block'
                 danger.style.display = 'none'
+                setTimeout(() => {
+                    success.style.display = 'none'
+                }, 6000);
                 form.reset(); // Formani tozalash
             })
-        setTimeout(() => {
-            success.style.display = 'none'
-        }, 3000);
+
     }
+    console.log();
 });
 
