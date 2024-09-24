@@ -233,6 +233,10 @@ nav .logo a img {
         cursor: pointer;
     }
 
+    form div button:hover {
+        background-color: #595d6965;
+    }
+
     .course-title ul {
         width: 100%;
         height: auto;
@@ -687,6 +691,10 @@ nav .logo a img {
         font-family: 'Montserrat', sans-serif;
         color: white;
         cursor: pointer;
+    }
+
+    form div button:hover {
+        background-color: #595d6965;
     }
 
     .course-title ul {
