@@ -933,7 +933,7 @@ nav .logo a img {
     }
 }
 
-/* @media screen and (720px < width < 920px ) {
+@media screen and (720px < width < 920px ) {
     .home {
         display: none;
     }
@@ -1009,4 +1009,4 @@ nav .logo a img {
         font-family: 'Montserrat', sans-serif;
         color: #030817;
     }
-}  */
+}
